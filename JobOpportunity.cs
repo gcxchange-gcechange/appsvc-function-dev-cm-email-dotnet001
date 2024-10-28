@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace appsvc_function_dev_cm_email_dotnet001
+﻿namespace appsvc_function_dev_cm_email_dotnet001
 {
     public class JobOpportunity
     {

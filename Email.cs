@@ -5,7 +5,6 @@ using Microsoft.Graph;
 using Microsoft.Graph.Models;
 using Newtonsoft.Json;
 using Microsoft.Graph.Users.Item.SendMail;
-using Azure.Storage.Queues;
 
 namespace appsvc_function_dev_cm_email_dotnet001
 {
