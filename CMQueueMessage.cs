@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json.Converters;
+﻿using class_library_cm;
+using Newtonsoft.Json.Converters;
 using System.Text.Json.Serialization;
 
 namespace appsvc_function_dev_cm_email_dotnet001
