@@ -1,4 +1,4 @@
-﻿using class_library_cm;
+﻿using CareerMarketplace;
 
 namespace appsvc_function_dev_cm_email_dotnet001
 {
@@ -11,7 +11,7 @@ namespace appsvc_function_dev_cm_email_dotnet001
                 @$"
                 Hello {jobOpportunity.ContactName},<br><br>
                 Your job opportunity has been successfully created!<br>
-                Woohoo! ᕦ(òᴥó)ᕥ<br><br>
+                {jobOpportunity.ToHTML()}
                 All the best,<br>
                 The GCX Team
                 "
@@ -24,8 +24,8 @@ namespace appsvc_function_dev_cm_email_dotnet001
                 "Job Opportunity Deleted",
                 @$"
                 Hello {jobOpportunity.ContactName},<br><br>
-                Your job opportunity '{jobOpportunity.JobTitleEn}' located at '{jobOpportunity.Location}' has been deleted...<br>
-                So sad! (ಥ﹏ಥ)<br><br>
+                Your job opportunity has been deleted...<br>
+                {jobOpportunity.ToHTML()}
                 Wishing you the best,<br>
                 The GCX Team
                 "

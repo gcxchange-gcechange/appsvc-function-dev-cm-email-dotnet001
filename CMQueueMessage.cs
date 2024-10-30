@@ -1,4 +1,4 @@
-﻿using class_library_cm;
+﻿using CareerMarketplace;
 using Newtonsoft.Json.Converters;
 using System.Text.Json.Serialization;
 
